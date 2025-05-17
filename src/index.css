@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+font-face{
+
+    src: url("./assets/fonts/SignikaNegative-VariableFont_wght.ttf");
+}
+@theme{
+    --font-Signika : "Signika Negative", "serif";
+    --color-whitegradiant:rgba(255,255,255,0.51) 0%;
+    --color-bluedark:rgba(46,128,251,0.5) 35%;
+    --color-bluedarknes:rgba(46,128,251,0.2) 69%;
+    --color-bluesoft:rgba(46,128,252,1) 100%;
+    --drop-shadow-slider: inset 0px 30px 60px -12px rgba(50, 50, 93, 0.25),
+    inset 0px 18px 36px -18px rgba(0, 0, 0, 0.3);
+    --breakpoint-sm:350px;
+}
+
